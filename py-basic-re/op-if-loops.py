@@ -71,3 +71,20 @@ while i_1 <= 5:
     i_1 += 1
 
 print(i_1) # 6
+
+#Break and continue
+print("Break")
+
+for i in range(1, 6):
+    if i == 3:
+        break
+    print(i)
+    
+    
+print("Continue")
+for i in range(1, 6):
+    if i == 3:
+        continue
+    print(i)
+    
+    
